@@ -47,3 +47,10 @@ hostname = nomo.dafork.com
 ^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$ url script-request-body https://raw.githubusercontent.com/jiaw-Zh/ScriptsForQuanX/master/Scripts/nomocam.js
 ```
 
+Polarr泼辣修图 解锁特权 (需恢复购买)
+
+hostname = api.polaxiong.com
+
+```
+^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation url script-response-body https://raw.githubusercontent.com/jiaw-Zh/ScriptsForQuanX/master/Scripts/Polarr.js
+```
